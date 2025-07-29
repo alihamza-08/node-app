@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
-# Copy app code
+# Copy app 
 COPY . .
 
 # Expose port
